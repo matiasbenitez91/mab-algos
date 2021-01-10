@@ -17,7 +17,7 @@ Run `poetry shell` to enter your virtual environment and `exit` to exit it.
 
 #### Non-contextual Multi-Armed Bandits
 
-_mab_algotithms_ implements algorithms in the form of classes that have two main methods: _action_ and _update_.
+_mab_algos_ implements algorithms in the form of classes that have two main methods: _action_ and _update_.
 
 Moreover, there are classes that allows to emulate multi-armed bandits scenarios where decisions have to be made online. These classes are _Simple_Sampler_ and _SimpleExperiment_.
 

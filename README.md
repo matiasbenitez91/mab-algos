@@ -25,9 +25,9 @@ Moreover, there are classes that allows to emulate multi-armed bandits scenarios
 
 ```
 
-# import mab-algorithms
-from mab_algorithms.simple_bandit import UCB1, E_Greedy, Random, Greedy, Thompson_Sampling
-from mab_algorithms.experiment import Simple_Sampler, SimpleExperiment
+# import mab-algos
+from mab_algos.simple_bandit import UCB1, E_Greedy, Random, Greedy, Thompson_Sampling
+from mab_algos.experiment import Simple_Sampler, SimpleExperiment
 
 # set number of arms
 n_arms=7

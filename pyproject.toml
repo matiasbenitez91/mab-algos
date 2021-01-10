@@ -1,13 +1,11 @@
 [tool.poetry]
-name = "mab_algorithms"
+name = "mab_algos"
 version = "0.0.1"
-description = "Flowcast template package package."
-authors = ["Flowcast Inc <info@flowcast.ai>"]
 readme = "README.md"
-homepage = "https://github.com/flowcast/mab-service"
-repository = "https://github.com/flowcast/mab-service"
+homepage = "https://github.com/matiasbenitez91/mab-algos"
+repository = "https://github.com/matiasbenitez91/mab-algos"
 packages = [
-	{ include = "mab_algorithms", from = "src" },
+	{ include = "mab_algos", from = "src" },
 ]
 
 [tool.poetry.dependencies]
@@ -27,7 +25,6 @@ scikit-learn = "^0.23.2"
 
 
 [tool.poetry.dev-dependencies]
-flowcast_python_dev_dependencies = {git = "ssh://git@github.com/flowcast/flowcast-python-dev-dependencies", rev = "master"}
 
 #[tool.poetry.scripts]
 #till-auth0='mab-service.console.console:cmd'

@@ -1,4 +1,4 @@
-# mab-algorithms
+# mab-algos
 
 Package that implements non-contextual and contextual multi-armed bandit models.
 

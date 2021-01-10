@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "mab_algorithms"
+version = "0.0.1"
+description = "Flowcast template package package."
+authors = ["Flowcast Inc <info@flowcast.ai>"]
+readme = "README.md"
+homepage = "https://github.com/flowcast/mab-service"
+repository = "https://github.com/flowcast/mab-service"
+packages = [
+	{ include = "mab_algorithms", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+tensorflow="^2.2.0"
+#flowcast = {git = "ssh://git@github.com/flowcast/flowcast-common", rev = "develop"}
+Click = "^7.0"
+ipykernel = "^5.3.0"
+pandas = "^1.0.4"
+toolz = "^0.10.0"
+dask = {version = "^2.19.0", extras = ["complete"]}
+matplotlib = "^3.2.2"
+sphinx = "^3.1.1"
+scipy = "1.4.1"
+tqdm = "^4.48.0"
+scikit-learn = "^0.23.2"
+
+
+[tool.poetry.dev-dependencies]
+flowcast_python_dev_dependencies = {git = "ssh://git@github.com/flowcast/flowcast-python-dev-dependencies", rev = "master"}
+
+#[tool.poetry.scripts]
+#till-auth0='mab-service.console.console:cmd'
+
+
+[build-system]
+requires = ["poetry>=1.0.2"]
+build-backend = "poetry.masonry.api"
